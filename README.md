@@ -1,170 +1,77 @@
-🚀 HexSoftwares_TechSupportHubBot
-📌 Project Overview
+HexSoftwares_TechSupportHubBot
 
-TechSupport Hub Bot is an AI-powered customer support chatbot developed as part of the internship assignment for Hex Softwares Pvt. Ltd.
+AI-powered customer support chatbot built using NLP and Machine Learning.
+Developed as part of the internship project for Hex Softwares Pvt. Ltd.
 
-The chatbot uses Natural Language Processing (NLP) and Machine Learning techniques to classify user queries into predefined support intents and provide appropriate responses through a Flask-based web interface.
 
-🎯 Project Objective
 
-To develop a virtual AI agent capable of:
+Project Overview:
 
-Handling customer inquiries
+TechSupport Hub Bot is a web-based AI chatbot that classifies customer queries into predefined support categories and provides appropriate responses.
+The chatbot uses TF-IDF vectorization and Logistic Regression for intent classification and is deployed using Flask.
 
-Managing account access issues
 
-Resolving billing and subscription queries
 
-Providing technical support
+Features:
 
-Guiding users with feature usage
+-Intent classification using Machine Learning
 
-Managing privacy and data export requests
+-12 predefined support intents
 
-Handling greetings, feedback, and out-of-scope queries
+-Handles account, billing, technical, and feature queries
 
-🧠 Technologies Used
+-Confidence-based prediction handling
 
-As defined in requirements.txt 
+-Web-based chat interface
 
-requirements
+-Accuracy testing module
 
-Python 3.10+
 
-Scikit-learn
 
-NumPy
+Technologies Used:
 
-Flask
+-Python 3.10+
 
-Flask-CORS
+-Scikit-learn
 
-🏗️ System Architecture
+-NumPy
 
-The chatbot consists of:
+-Flask
 
-1️⃣ NLP Processing
+-Flask-CORS
 
-Implemented in:
+Dependencies are listed in    requirements.txt
 
-smartassist_chatbot.py 
 
-smartassist_chatbot
+Project Structure:
 
-Includes:
+-app.py
 
-Text cleaning
+-smartassist_chatbot.py
 
-Tokenization
+-techsupport_training_data.py
 
-Stopword removal
+-test_improved_bot.py
 
-Lemmatization
+-requirements.txt
 
-2️⃣ Intent Classification
+-templates/
 
-TF-IDF Vectorization
+-static/
 
-Logistic Regression / Ensemble Classifier
 
-Confidence threshold handling
 
-Cross-validation support
+How to Run:
 
-3️⃣ Training Dataset
+-Clone the repository
 
-Defined in:
+-Create a virtual environment
 
-techsupport_training_data.py 
+-Install dependencies:
 
-techsupport_training_data
+       pip install -r requirements.txt
 
-Includes:
+-Run the application:
 
-600+ labeled examples
+       python app.py
 
-12 different support intents
-
-Multiple variations per intent
-
-4️⃣ Web Interface
-
-Implemented in:
-
-app.py 
-
-app
-
-Provides:
-
-Interactive chat UI
-
-Real-time message processing
-
-Response display
-
-5️⃣ Accuracy Testing
-
-Implemented in:
-
-test_improved_bot.py 
-
-test_improved_bot
-
-Includes:
-
-59 diverse test cases
-
-Accuracy scoring
-
-Performance grading
-
-Confidence analysis
-
-📊 Model Performance
-
-Cross-Validation Accuracy: ~68–70%
-
-Test Accuracy: ~93%
-
-12 Supported Intents
-
-Balanced Multi-Class Classification
-
-📁 Project Structure
-
-
-HexSoftwares_TechSupportHubBot/
-│
-├── app.py
-├── smartassist_chatbot.py
-├── techsupport_training_data.py
-├── test_improved_bot.py
-├── requirements.txt
-├── README.md
-│
-├── templates/
-└── static/
-
-🌐 How To Run The Project
-1️⃣ Clone Repository
-git clone https://github.com/YOUR_USERNAME/HexSoftwares_TechSupportHubBot.git
-cd HexSoftwares_TechSupportHubBot
-
-2️⃣ Create Virtual Environment (Recommended)
-python -m venv venv
-venv\Scripts\activate
-
-3️⃣ Install Dependencies
-pip install -r requirements.txt
-
-4️⃣ Run Web Application
-python app.py
-
-
-Open in browser:
-
-http://localhost:5000
-
-🧪 Run Accuracy Test
-python test_improved_bot.py
