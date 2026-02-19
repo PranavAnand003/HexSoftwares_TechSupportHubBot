@@ -5,14 +5,14 @@ Developed as part of the internship project for Hex Softwares Pvt. Ltd.
 
 
 
-Project Overview:
+1. Project Overview:
 
 TechSupport Hub Bot is a web-based AI chatbot that classifies customer queries into predefined support categories and provides appropriate responses.
 The chatbot uses TF-IDF vectorization and Logistic Regression for intent classification and is deployed using Flask.
 
 
 
-Features:
+2. Features:
 
 -Intent classification using Machine Learning
 
@@ -28,7 +28,7 @@ Features:
 
 
 
-Technologies Used:
+3. Technologies Used:
 
 -Python 3.10+
 
@@ -43,7 +43,7 @@ Technologies Used:
 Dependencies are listed in    requirements.txt
 
 
-Project Structure:
+4. Project Structure:
 
 -app.py
 
@@ -61,7 +61,7 @@ Project Structure:
 
 
 
-How to Run:
+5. How to Run:
 
 -Clone the repository
 
