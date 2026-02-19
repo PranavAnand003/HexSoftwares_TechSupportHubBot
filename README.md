@@ -7,71 +7,71 @@ Developed as part of the internship project for Hex Softwares Pvt. Ltd.
 
 1. Project Overview:
 
-TechSupport Hub Bot is a web-based AI chatbot that classifies customer queries into predefined support categories and provides appropriate responses.
-The chatbot uses TF-IDF vectorization and Logistic Regression for intent classification and is deployed using Flask.
+     TechSupport Hub Bot is a web-based AI chatbot that classifies customer queries into predefined support categories and provides appropriate responses.
+     The chatbot uses TF-IDF vectorization and Logistic Regression for intent classification and is deployed using Flask.
 
 
 
 2. Features:
 
--Intent classification using Machine Learning
+    -Intent classification using Machine Learning
 
--12 predefined support intents
+    -12 predefined support intents
 
--Handles account, billing, technical, and feature queries
+    -Handles account, billing, technical, and feature queries
 
--Confidence-based prediction handling
+    -Confidence-based prediction handling
 
--Web-based chat interface
+    -Web-based chat interface
 
--Accuracy testing module
+    -Accuracy testing module
 
 
 
 3. Technologies Used:
 
--Python 3.10+
+    -Python 3.10+
 
--Scikit-learn
+    -Scikit-learn
 
--NumPy
+    -NumPy
 
--Flask
+    -Flask
 
--Flask-CORS
+    -Flask-CORS
 
-Dependencies are listed in    requirements.txt
+Dependencies are listed in  requirements.txt
 
 
 4. Project Structure:
 
--app.py
+    -app.py
 
--smartassist_chatbot.py
+    -smartassist_chatbot.py
 
--techsupport_training_data.py
+    -techsupport_training_data.py
 
--test_improved_bot.py
+    -test_improved_bot.py
 
--requirements.txt
+    -requirements.txt
 
--templates/
+    -templates/
 
--static/
+    -static/
 
 
 
 5. How to Run:
 
--Clone the repository
+   -Clone the repository
 
--Create a virtual environment
+   -Create a virtual environment
 
--Install dependencies:
+ -Install dependencies:
 
        pip install -r requirements.txt
 
--Run the application:
+ -Run the application:
 
        python app.py
 
